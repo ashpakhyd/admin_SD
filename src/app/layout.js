@@ -8,6 +8,10 @@ export const metadata = {
   title: "SD Admin",
   description: "Store Management Admin Panel",
   manifest: "/manifest.json",
+  icons: {
+    icon: "/icons/businessman.png",
+    apple: "/icons/businessman.png",
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
