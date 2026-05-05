@@ -20,14 +20,18 @@ export const metadata = {
 };
 
 export const viewport = {
-  themeColor: "#1e40af",
+  themeColor: "#4f46e5",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geist.variable} h-full`}>
       <body className="min-h-full bg-gray-50 text-gray-900 antialiased">
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/icons/businessman.png" />
+        <link rel="manifest" href="/manifest.json" />
         <StoreProvider>{children}</StoreProvider>
       </body>
     </html>

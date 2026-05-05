@@ -1,11 +1,11 @@
 {
-  "name": "SD Admin",
-  "short_name": "SD Admin",
+  "name": "SD_Admin",
+  "short_name": "SDAdmin",
   "description": "Store Management Admin Panel",
-  "start_url": "/",
+  "start_url": "/dashboard",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1e40af",
+  "background_color": "#f9fafb",
+  "theme_color": "#4f46e5",
   "orientation": "portrait",
   "icons": [
     {
